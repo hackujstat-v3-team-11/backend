@@ -11,6 +11,6 @@ def get_question(okres):
         ],
         'corrects': 1,
         'source': 'Example database',
-        'value': '15ha'
+        'value': '15ha',
         'more_html': '<div></div>'
     }
