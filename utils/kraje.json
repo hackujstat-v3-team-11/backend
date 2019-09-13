@@ -2,71 +2,85 @@
   {
     "cznuts": "CZ010",
     "name": "Hlavní město Praha",
-    "csu": 3018
+    "csu": 3018,
+    "inflection": "v Praze"
   },
   {
     "cznuts": "CZ064",
     "name": "Jihomoravský kraj",
-    "csu": 3115
+    "csu": 3115,
+    "inflection": "v Jihomoravském kraji"
   },
   {
     "cznuts": "CZ031",
     "name": "Jihočeský kraj",
-    "csu": 3034
+    "csu": 3034,
+    "inflection": "v Jihočeském kraji"
   },
   {
     "cznuts": "CZ041",
     "name": "Karlovarský kraj",
-    "csu": 3051
+    "csu": 3051,
+    "inflection": "v Karlovarském kraji"
   },
   {
     "cznuts": "CZ063",
     "name": "Kraj Vysočina",
-    "csu": 3107
+    "csu": 3107,
+    "inflection": "na Vysočině"
   },
   {
     "cznuts": "CZ052",
     "name": "Královéhradecký kraj",
-    "csu": 3085
+    "csu": 3085,
+    "inflection": "v Královehradeckým kraji"
   },
   {
     "cznuts": "CZ051",
     "name": "Liberecký kraj",
-    "csu": 3077
+    "csu": 3077,
+    "inflection": "v Libereckým kraji"
   },
   {
     "cznuts": "CZ080",
     "name": "Moravskoslezský kraj",
-    "csu": 3140
+    "csu": 3140,
+    "inflection": "v Moravskoslezkém kraji"
   },
   {
     "cznuts": "CZ071",
     "name": "Olomoucký kraj",
-    "csu": 3123
+    "csu": 3123,
+    "inflection": "v Olomouckém kraji"
   },
   {
     "cznuts": "CZ053",
     "name": "Pardubický kraj",
-    "csu": 3093
+    "csu": 3093,
+    "inflection": "v Pradubickém kraji"
   },
   {
     "cznuts": "CZ032",
     "name": "Plzeňský kraj",
-    "csu": 3042
+    "csu": 3042,
+    "inflection": "v Plzeňském kraji"
   },
   {
     "cznuts": "CZ020",
     "name": "Středočeský kraj",
-    "csu": 3026
+    "csu": 3026,
+    "inflection": "ve Středočeském kraji"
   },
   {
     "cznuts": "CZ072",
     "name": "Zlínský kraj",
-    "csu": 3131
+    "csu": 3131,
+    "inflection": "ve Zlínském kraji"
   },
   {
     "cznuts": "CZ042",
     "name": "Ústecký kraj",
-    "csu": 3069
+    "csu": 3069,
+    "inflection": "v Ústeckém kraji"
   }
 ]
