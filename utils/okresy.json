@@ -1,0 +1,392 @@
+[
+  {
+    "cznuts": "CZ0201",
+    "name": "Benešov",
+    "csu": 40169
+  },
+  {
+    "cznuts": "CZ0202",
+    "name": "Beroun",
+    "csu": 40177
+  },
+  {
+    "cznuts": "CZ0641",
+    "name": "Blansko",
+    "csu": 40703
+  },
+  {
+    "cznuts": "CZ0642",
+    "name": "Brno-město",
+    "csu": 40711
+  },
+  {
+    "cznuts": "CZ0643",
+    "name": "Brno-venkov",
+    "csu": 40720
+  },
+  {
+    "cznuts": "CZ0801",
+    "name": "Bruntál",
+    "csu": 40860
+  },
+  {
+    "cznuts": "CZ0644",
+    "name": "Břeclav",
+    "csu": 40738
+  },
+  {
+    "cznuts": "CZ0411",
+    "name": "Cheb",
+    "csu": 40428
+  },
+  {
+    "cznuts": "CZ0422",
+    "name": "Chomutov",
+    "csu": 40461
+  },
+  {
+    "cznuts": "CZ0531",
+    "name": "Chrudim",
+    "csu": 40614
+  },
+  {
+    "cznuts": "CZ0321",
+    "name": "Domažlice",
+    "csu": 40355
+  },
+  {
+    "cznuts": "CZ0421",
+    "name": "Děčín",
+    "csu": 40452
+  },
+  {
+    "cznuts": "CZZZZZ",
+    "name": "Extra-Regio",
+    "csu": 40002
+  },
+  {
+    "cznuts": "CZ0802",
+    "name": "Frýdek-Místek",
+    "csu": 40878
+  },
+  {
+    "cznuts": "CZ0631",
+    "name": "Havlíčkův Brod",
+    "csu": 40657
+  },
+  {
+    "cznuts": "CZ0645",
+    "name": "Hodonín",
+    "csu": 40746
+  },
+  {
+    "cznuts": "CZ0521",
+    "name": "Hradec Králové",
+    "csu": 40568
+  },
+  {
+    "cznuts": "CZ0512",
+    "name": "Jablonec nad Nisou",
+    "csu": 40533
+  },
+  {
+    "cznuts": "CZ0711",
+    "name": "Jeseník",
+    "csu": 40771
+  },
+  {
+    "cznuts": "CZ0632",
+    "name": "Jihlava",
+    "csu": 40665
+  },
+  {
+    "cznuts": "CZ0313",
+    "name": "Jindřichův Hradec",
+    "csu": 40304
+  },
+  {
+    "cznuts": "CZ0522",
+    "name": "Jičín",
+    "csu": 40576
+  },
+  {
+    "cznuts": "CZ0412",
+    "name": "Karlovy Vary",
+    "csu": 40436
+  },
+  {
+    "cznuts": "CZ0803",
+    "name": "Karviná",
+    "csu": 40886
+  },
+  {
+    "cznuts": "CZ0203",
+    "name": "Kladno",
+    "csu": 40185
+  },
+  {
+    "cznuts": "CZ0322",
+    "name": "Klatovy",
+    "csu": 40363
+  },
+  {
+    "cznuts": "CZ0204",
+    "name": "Kolín",
+    "csu": 40193
+  },
+  {
+    "cznuts": "CZ0721",
+    "name": "Kroměříž",
+    "csu": 40827
+  },
+  {
+    "cznuts": "CZ0205",
+    "name": "Kutná Hora",
+    "csu": 40207
+  },
+  {
+    "cznuts": "CZ0513",
+    "name": "Liberec",
+    "csu": 40541
+  },
+  {
+    "cznuts": "CZ0423",
+    "name": "Litoměřice",
+    "csu": 40479
+  },
+  {
+    "cznuts": "CZ0424",
+    "name": "Louny",
+    "csu": 40487
+  },
+  {
+    "cznuts": "CZ0207",
+    "name": "Mladá Boleslav",
+    "csu": 40223
+  },
+  {
+    "cznuts": "CZ0425",
+    "name": "Most",
+    "csu": 40495
+  },
+  {
+    "cznuts": "CZ0206",
+    "name": "Mělník",
+    "csu": 40215
+  },
+  {
+    "cznuts": "CZ0804",
+    "name": "Nový Jičín",
+    "csu": 40894
+  },
+  {
+    "cznuts": "CZ0208",
+    "name": "Nymburk",
+    "csu": 40231
+  },
+  {
+    "cznuts": "CZ0523",
+    "name": "Náchod",
+    "csu": 40584
+  },
+  {
+    "cznuts": "CZ0712",
+    "name": "Olomouc",
+    "csu": 40789
+  },
+  {
+    "cznuts": "CZ0805",
+    "name": "Opava",
+    "csu": 40908
+  },
+  {
+    "cznuts": "CZ0806",
+    "name": "Ostrava-město",
+    "csu": 40916
+  },
+  {
+    "cznuts": "CZ0532",
+    "name": "Pardubice",
+    "csu": 40622
+  },
+  {
+    "cznuts": "CZ0633",
+    "name": "Pelhřimov",
+    "csu": 40673
+  },
+  {
+    "cznuts": "CZ0324",
+    "name": "Plzeň-jih",
+    "csu": 40380
+  },
+  {
+    "cznuts": "CZ0323",
+    "name": "Plzeň-město",
+    "csu": 40371
+  },
+  {
+    "cznuts": "CZ0325",
+    "name": "Plzeň-sever",
+    "csu": 40398
+  },
+  {
+    "cznuts": "CZ0315",
+    "name": "Prachatice",
+    "csu": 40321
+  },
+  {
+    "cznuts": "CZ0100",
+    "name": "Praha",
+    "csu": 40924
+  },
+  {
+    "cznuts": "CZ0209",
+    "name": "Praha-východ",
+    "csu": 40240
+  },
+  {
+    "cznuts": "CZ020A",
+    "name": "Praha-západ",
+    "csu": 40258
+  },
+  {
+    "cznuts": "CZ0713",
+    "name": "Prostějov",
+    "csu": 40797
+  },
+  {
+    "cznuts": "CZ0314",
+    "name": "Písek",
+    "csu": 40312
+  },
+  {
+    "cznuts": "CZ0714",
+    "name": "Přerov",
+    "csu": 40801
+  },
+  {
+    "cznuts": "CZ020B",
+    "name": "Příbram",
+    "csu": 40266
+  },
+  {
+    "cznuts": "CZ020C",
+    "name": "Rakovník",
+    "csu": 40274
+  },
+  {
+    "cznuts": "CZ0326",
+    "name": "Rokycany",
+    "csu": 40401
+  },
+  {
+    "cznuts": "CZ0524",
+    "name": "Rychnov nad Kněžnou",
+    "csu": 40592
+  },
+  {
+    "cznuts": "CZ0514",
+    "name": "Semily",
+    "csu": 40550
+  },
+  {
+    "cznuts": "CZ0413",
+    "name": "Sokolov",
+    "csu": 40444
+  },
+  {
+    "cznuts": "CZ0316",
+    "name": "Strakonice",
+    "csu": 40339
+  },
+  {
+    "cznuts": "CZ0533",
+    "name": "Svitavy",
+    "csu": 40631
+  },
+  {
+    "cznuts": "CZ0327",
+    "name": "Tachov",
+    "csu": 40410
+  },
+  {
+    "cznuts": "CZ0426",
+    "name": "Teplice",
+    "csu": 40509
+  },
+  {
+    "cznuts": "CZ0525",
+    "name": "Trutnov",
+    "csu": 40606
+  },
+  {
+    "cznuts": "CZ0317",
+    "name": "Tábor",
+    "csu": 40347
+  },
+  {
+    "cznuts": "CZ0634",
+    "name": "Třebíč",
+    "csu": 40681
+  },
+  {
+    "cznuts": "CZ0722",
+    "name": "Uherské Hradiště",
+    "csu": 40835
+  },
+  {
+    "cznuts": "CZ0723",
+    "name": "Vsetín",
+    "csu": 40843
+  },
+  {
+    "cznuts": "CZ0646",
+    "name": "Vyškov",
+    "csu": 40754
+  },
+  {
+    "cznuts": "CZ0724",
+    "name": "Zlín",
+    "csu": 40851
+  },
+  {
+    "cznuts": "CZ0647",
+    "name": "Znojmo",
+    "csu": 40762
+  },
+  {
+    "cznuts": "CZ0427",
+    "name": "Ústí nad Labem",
+    "csu": 40517
+  },
+  {
+    "cznuts": "CZ0534",
+    "name": "Ústí nad Orlicí",
+    "csu": 40649
+  },
+  {
+    "cznuts": "CZ0511",
+    "name": "Česká Lípa",
+    "csu": 40525
+  },
+  {
+    "cznuts": "CZ0311",
+    "name": "České Budějovice",
+    "csu": 40282
+  },
+  {
+    "cznuts": "CZ0312",
+    "name": "Český Krumlov",
+    "csu": 40291
+  },
+  {
+    "cznuts": "CZ0715",
+    "name": "Šumperk",
+    "csu": 40819
+  },
+  {
+    "cznuts": "CZ0635",
+    "name": "Žďár nad Sázavou",
+    "csu": 40690
+  }
+]

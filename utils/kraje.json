@@ -1,0 +1,72 @@
+[
+  {
+    "cznuts": "CZ010",
+    "name": "Hlavní město Praha",
+    "csu": 3018
+  },
+  {
+    "cznuts": "CZ064",
+    "name": "Jihomoravský kraj",
+    "csu": 3115
+  },
+  {
+    "cznuts": "CZ031",
+    "name": "Jihočeský kraj",
+    "csu": 3034
+  },
+  {
+    "cznuts": "CZ041",
+    "name": "Karlovarský kraj",
+    "csu": 3051
+  },
+  {
+    "cznuts": "CZ063",
+    "name": "Kraj Vysočina",
+    "csu": 3107
+  },
+  {
+    "cznuts": "CZ052",
+    "name": "Královéhradecký kraj",
+    "csu": 3085
+  },
+  {
+    "cznuts": "CZ051",
+    "name": "Liberecký kraj",
+    "csu": 3077
+  },
+  {
+    "cznuts": "CZ080",
+    "name": "Moravskoslezský kraj",
+    "csu": 3140
+  },
+  {
+    "cznuts": "CZ071",
+    "name": "Olomoucký kraj",
+    "csu": 3123
+  },
+  {
+    "cznuts": "CZ053",
+    "name": "Pardubický kraj",
+    "csu": 3093
+  },
+  {
+    "cznuts": "CZ032",
+    "name": "Plzeňský kraj",
+    "csu": 3042
+  },
+  {
+    "cznuts": "CZ020",
+    "name": "Středočeský kraj",
+    "csu": 3026
+  },
+  {
+    "cznuts": "CZ072",
+    "name": "Zlínský kraj",
+    "csu": 3131
+  },
+  {
+    "cznuts": "CZ042",
+    "name": "Ústecký kraj",
+    "csu": 3069
+  }
+]
