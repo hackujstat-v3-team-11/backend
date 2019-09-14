@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Zdroj dat
-#  https://vdb.czso.cz/vdbvo2/faces/cs/index.jsf?page=vystup-objekt&z=T&f=TABULKA&ds=ds2287&pvo=DEM07D&katalog=31737&c=v741%7E8__RP2017&str=v741#w=
+# https://vdb.czso.cz/vdbvo2/faces/cs/index.jsf?page=vystup-objekt&z=T&f=TABULKA&ds=ds2287&pvo=DEM07D&katalog=31737&c=v741%7E8__RP2017&str=v741#w=
 #
 import sys
 sys.path.append("..")
@@ -12,7 +12,7 @@ __path__ = os.path.dirname(__file__)
 
 def load_data():
     okresy = location.okresy_name()
-    with open(os.path.join(__path__, 'DEM07D.csv'), newline='') as csvfile:
+    with open(os.path.join(__path__, 'DEM07D.csv'), newline='',encoding='utf-8') as csvfile:
         datareader = csv.reader(csvfile, delimiter=',', quotechar='"')
         data = {}
         for row in datareader:
@@ -36,7 +36,7 @@ def get_question(okres):
 
     question = answer_proposer.propose_integer_answer(row['narozeni'])
 
-    question['question'] = 'Kolik dětí se narodilo v roce 2017?'
+    question['question'] = 'Kolik dětí se narodilo v okrese '+okres+' v roce 2017?'
     question['source'] = 'ČSÚ - Souhrnná data o České republice'
     question['value'] = '{narozeni} z toho {holky} holčiček a {kluci} kluků'.format(**row)
     question['more_html'] = '<div></div>'
