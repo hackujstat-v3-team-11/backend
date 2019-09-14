@@ -30,18 +30,14 @@ with open(os.path.join(path, 'narodni-registr-poskytovatelu-zdravotnich-sluzeb.c
             
 def get_question(okres):
     kraj = location.get_kraj(okres)
-    #===========================================================================
-    # try:
-    #===========================================================================
-    print(kraj.keys())
-    question = answer_proposer.propose_integer_answer(data[kraj['name']],keep_non_negative=True)
-     
-    question['question'] = ('O kolika zdravotnických pracovištích '+kraj['inflection']+' víme?')
-    question['source'] = 'narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv';
-    question['value'] = (kraj['inflection'].capitalize()+' víme o '+str(data[kraj['name']])+' zdravotnických pracovištích.')
-    question['more_html'] = '<div></div>'
-    #===========================================================================
-    # except:
-    #     question = None;
-    #===========================================================================
+    try:
+        question = answer_proposer.propose_integer_answer(data[kraj['name']],keep_non_negative=True)
+
+        question['question'] = ('O kolika zdravotnických pracovištích '+kraj['inflection']+' víme?')
+        question['source'] = 'narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv';
+        question['value'] = (kraj['inflection'].capitalize()+' víme o '+str(data[kraj['name']])+' zdravotnických pracovištích.')
+        question['more_html'] = '<div></div>'
+    except:
+        question = None;
+
     return question
