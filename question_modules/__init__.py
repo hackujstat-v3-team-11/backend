@@ -8,7 +8,7 @@ from . import hospodarska_zvirata
 from . import people
 from . import medical_facilities
 
-def get_questions(okres):
+def get_questions(okres, count=None):
     moduls = [
         foreign_tourists,
         populace,
@@ -24,6 +24,9 @@ def get_questions(okres):
 
     questions = []
     question_text = {}
+
+    if count:
+        moduls = moduls[:count]
 
     for modul in moduls:
         while True:
