@@ -74,7 +74,7 @@ def propose_integer_answer(answer,keep_non_negative=True,N_answers=4,range_symbo
             chosen_step = random.randint(min_step,100)
         before,range_before = response+1,answer;
     if keep_non_negative:
-        chosen_left = max(0,answer - chosen_step//2);
+        chosen_left = max(0,answer - chosen_step//5);
     else:
         chosen_left = answer - chosen_step//2;
         
@@ -125,7 +125,7 @@ def propose_float_answer(answer,keep_non_negative=True,N_answers=4,range_symbol=
             chosen_step = random.randint(min_step,100)
         before,range_before = response+1,int(answer);
     if keep_non_negative:
-        chosen_left = max(0,int(answer) - chosen_step//2);
+        chosen_left = max(0,int(answer) - chosen_step//5);
     else:
         chosen_left = int(answer) - chosen_step//2;
         
