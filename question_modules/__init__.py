@@ -3,13 +3,14 @@ from random import shuffle, randint
 from . import foreign_tourists
 from . import populace
 from . import sklizen_zemedelskych_plodin
-
+from . import life_expectancy
 
 def get_questions(okres):
     moduls = [
         foreign_tourists,
         populace,
-        sklizen_zemedelskych_plodin
+        sklizen_zemedelskych_plodin,
+        life_expectancy
     ]
 
     shuffle(moduls)
