@@ -38,7 +38,7 @@ with open(os.path.join(__path__, '270230-19data053119.csv'), newline='') as csvf
 
         max_rok = max_data[uzemi][zvire]["max_rok"]
         if  max_data[uzemi][zvire]["max_rok"] < pocet:
-            max_data[uzemi][zvire]["max_rok"] = rok 
+            max_data[uzemi][zvire]["max_rok"] = rok
 
 lut = {'Drůbež': 'drůbeže',
  'Koně': 'koní',
@@ -57,7 +57,7 @@ def get_question(okres):
         kraj = {'name': 'Hlavní město Praha + Středočeský kraj', 'inflection' : 've Sředočeském kraji'}
     elif kraj['name'] == 'Hlavní město Praha':
         kraj = {'name': 'Hlavní město Praha + Středočeský kraj', 'inflection' : 'v Praze'}
-    
+
     num = random.randint(0,1)
 
     if num == 0:
@@ -72,10 +72,12 @@ def get_question(okres):
         question['more_html'] = '<div></div>'
     elif num == 1:
         row = max_data[kraj['name']]
+
         zvire = rand.get_key(row)
         rok = row[zvire]['max_rok']
         pocet = row[zvire]['pocet']
-        question = answer_proposer.propose_integer_answer(int(rok))
+
+        question = answer_proposer.propose_list_answer(rok, list(data[kraj['name']][zvire].keys()))
         question['question'] = 'V jakém roce se chovalo {} nejvíce {}?'.format(kraj['inflection'], lut.get(zvire, zvire))
         question['source'] = 'ČSÚ - Hospodářská zvířata podle krajů'
         question['value'] = '{} kusů {} v roce {}'.format(pocet, lut.get(zvire, zvire), rok)
