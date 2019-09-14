@@ -20,3 +20,5 @@
     - [Populace](https://vdb.czso.cz/vdbvo2/faces/cs/index.jsf?page=vystup-objekt&z=T&f=TABULKA&ds=ds2287&pvo=DEM07D&katalog=31737&c=v741%7E8__RP2017&str=v741#w=)
     - [Hosté a přenocování v hromadných ubytovacích zažízeních podle zemí](https://www.czso.cz/csu/czso/hoste-a-prenocovani-v-hromadnych-ubytovacich-zarizenich-podle-zemi)
     - [Naděje dožití v okresech a správních obvodech ORP](https://www.czso.cz/csu/czso/nadeje-doziti-v-okresech-a-spravnich-obvodech-orp)
+- [Ministerstvo zdravotnictví České republiky](https://www.mzcr.cz)
+    - [Národní registr poskytovatelů zdravotních služeb](https://opendata.mzcr.cz/dataset/nrpzs/resource/9c499739-f924-4c28-a295-118c433712e8)
