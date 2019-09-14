@@ -1,15 +1,29 @@
 # -*- coding: utf-8 -*-
-# import os
-# from importlib.machinery import SourceFileLoader
+from random import shuffle, randint
+from . import foreign_tourists
+from . import populace
+from . import sklizen_zemedelskych_plodin
 
-# lut = {}
 
-# dirname = os.path.dirname(__file__)
+def get_questions(okres):
+    moduls = [
+        foreign_tourists,
+        populace,
+        sklizen_zemedelskych_plodin
+    ]
 
-# for filename in os.listdir(dirname):
-#     if filename == '__init__.py' or filename[-3:] != '.py':
-#         continue
+    shuffle(moduls)
 
-#     module = SourceFileLoader("question_modules." + filename[:-3], os.path.join(dirname, filename)).load_module()
+    questions = []
 
-#     lut[module.NAME] = module
+    for modul in moduls:
+        while True:
+            question = modul.get_question(okres)
+            if question:
+                questions.append(question)
+                break
+            modul = moduls[randint(0, len(moduls) - 1)]
+
+    return questions
+
+
