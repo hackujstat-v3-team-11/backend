@@ -1,12 +1,12 @@
 # Zdroj dat
-#  CSU
+# CSU
 
 import sys
 sys.path.append("..")
 import json
 import os
 from random import randint
-from utils import location, answer_proposer, rand
+from utils import location, answer_proposer
 
 __path__ = os.path.dirname(__file__)
 
@@ -20,7 +20,7 @@ data = [
         "file": "pocit_stesti.json"
     },
     {
-        "question": "Poměrné míra kouření",
+        "question": "Poměrná míra kouření",
         "file": "smoke.json"
     },
     {
@@ -54,7 +54,10 @@ def get_question(okres):
 
     value = db['data'][okres['cznuts']]
 
-    question = answer_proposer.propose_percentage_answer(value*0.01)
+    if db['question'] == "Průměrný věk populace":
+        question = answer_proposer.propose_integer_answer(value,keep_non_negative=True)
+    else:
+        question = answer_proposer.propose_percentage_answer(value*0.01)
 
     question['question'] = db['question'] + ' v okrese?'
     question['source'] = 'ČSÚ - Souhrnná data o České republice'
