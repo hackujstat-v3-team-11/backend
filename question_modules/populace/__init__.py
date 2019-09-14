@@ -33,7 +33,7 @@ def get_question(okres):
 
     question = answer_proposer.propose_integer_answer(row['narozeni'])
 
-    question['question'] = 'Kolk dětí se narodilo v roce 2017?'
+    question['question'] = 'Kolik dětí se narodilo v roce 2017?'
     question['source'] = 'ČSÚ - Souhrnná data o České republice'
     question['value'] = '{narozeni} z toho {holky} holčiček a {kluci} kluků'.format(**row)
     question['more_html'] = '<div></div>'
