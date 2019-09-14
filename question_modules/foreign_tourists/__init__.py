@@ -36,11 +36,19 @@ def get_question(okres):
         zaznam = dta[random.randint(0,len(dta)-1)];
         question = answer_proposer.propose_integer_answer(zaznam['pocet'],keep_non_negative=True)
         
+        other_info = ['Další ilustrační údaje:'];
+        for i in range(3):
+            zzx = dta[random.randint(0,len(dta)-1)];
+            other_info.append('  '+zzx['zeme_puvodu']+' => '+kraj['name']+' v '+
+                mesice[zzx['mesic']]+' '+str(zzx['rok'])+': '+str(zzx['pocet'])+' osob')
+        other_info[-1]+='.';
+
         question['question'] = ('Kolik turistů ze země '+zaznam['zeme_puvodu']+' přespalo v '+
             mesice[zaznam['mesic']]+' '+str(zaznam['rok'])+' '+kraj['inflection']+'?')
         question['source'] = 'ČSÚ a CzechTourism - Souhrnná data o České republice'
         question['value'] = ('Turistů z '+zaznam['zeme_puvodu']+' přespalo v '+mesice[zaznam['mesic']]+' '+
-            str(zaznam['rok'])+' '+kraj['inflection']+' '+str(zaznam['pocet'])+'.')
+            str(zaznam['rok'])+' '+kraj['inflection']+' '+str(zaznam['pocet'])+'.'+'\n'+
+            '\n'.join(other_info) )
         question['more_html'] = '<div></div>'
     else:
         question = None;
