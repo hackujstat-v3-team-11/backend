@@ -2,7 +2,7 @@
 ---
 #### Statistika hrou je platforma pro prezentaci dat zábavným interaktivním způsobem. Má formu chatbota napojitelného na facebook Messenger i vlastní dialog-flow web aplikaci. Tímto designem získává potenciál oslovit skrze sociální sítě. 
 
-ChatBot po zahájení konverzace zprávou "čau" vyzve hráče k zadání okresu v ČR. Z reálií zvoleného místa pak formuluje otázky kvízu. Hráč se tak seznamuje s nejrůznějšími statistickými daty daného regionu.
+#### ChatBot po zahájení konverzace zprávou "čau" vyzve hráče k zadání okresu v ČR. Z reálií zvoleného místa pak formuluje otázky kvízu. Hráč se tak seznamuje s nejrůznějšími statistickými daty daného regionu.
 
 ---
 ## Datové sady
