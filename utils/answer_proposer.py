@@ -58,7 +58,7 @@ def propose_integer_answer(answer,keep_non_negative=True,N_answers=4,range_symbo
                     
         steps = list( range( min_step,int(range_before/before),1) )
         if len(steps) == 0:
-            chosen_step = random.randint(5,77);
+            chosen_step = random.randint(1,min_step);
         else:
             chosen_step = steps[random.randint(0,len(steps)-1)];
     else:
@@ -86,7 +86,7 @@ def propose_integer_answer(answer,keep_non_negative=True,N_answers=4,range_symbo
         
     answer_list = [];
     for i,answer in enumerate(answer_ranges[:-1]):
-        if answer_ranges[i] > 0 and answer_ranges[i+1] > 0:
+        if answer_ranges[i] >= 0 and answer_ranges[i+1] >= 0:
             answer_list.append( list(string.ascii_uppercase)[i]+': '+
                     str(answer_ranges[i])+range_symbol+str(answer_ranges[i+1]) )
         else:
@@ -109,7 +109,7 @@ def propose_float_answer(answer,keep_non_negative=True,N_answers=4,range_symbol=
                     
         steps = list( range( min_step,int(range_before/before),1) )
         if len(steps) == 0:
-            chosen_step = random.randint(5,77);
+            chosen_step = random.randint(1,min_step);
         else:
             chosen_step = steps[random.randint(0,len(steps)-1)];
     else:
