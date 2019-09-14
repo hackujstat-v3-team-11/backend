@@ -7,6 +7,7 @@ from . import life_expectancy
 from . import hospodarska_zvirata
 from . import people
 from . import medical_facilities
+from . import ubytek_pudy
 
 def get_questions(okres, count=None):
     moduls = [
@@ -17,7 +18,8 @@ def get_questions(okres, count=None):
         hospodarska_zvirata,
         people,
         people,
-        medical_facilities
+        medical_facilities,
+        ubytek_pudy
     ]
 
     shuffle(moduls)
