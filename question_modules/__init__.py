@@ -5,6 +5,7 @@ from . import populace
 from . import sklizen_zemedelskych_plodin
 from . import life_expectancy
 from . import hospodarska_zvirata
+from . import people
 
 def get_questions(okres):
     moduls = [
@@ -12,21 +13,23 @@ def get_questions(okres):
         populace,
         sklizen_zemedelskych_plodin,
         life_expectancy,
-        hospodarska_zvirata
+        hospodarska_zvirata,
+        people,
+        people
     ]
 
     shuffle(moduls)
 
     questions = []
+    question_text = {}
 
     for modul in moduls:
         while True:
             question = modul.get_question(okres)
-            if question:
+            if question and question['question'] not in question_text:
                 questions.append(question)
+                question_text[question['question']] = 1
                 break
-            modul = moduls[randint(0, len(moduls) - 1)]
+            modul = people
 
     return questions
-
-
