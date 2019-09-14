@@ -30,7 +30,7 @@ with open(os.path.join(path, '130140-19data080519.csv'), newline='', encoding='u
                     data[row[-1]]['ženy'] = float(row[1])
             except:
                 pass
-            
+
 def get_question(okres):
     okres = location.find_okres(okres)
     xind = random.randint(0,1)
@@ -39,10 +39,12 @@ def get_question(okres):
     if data[okres['name']][gen]:
         question = answer_proposer.propose_float_answer(data[okres['name']][gen],keep_non_negative=True)
          
-        question['question'] = ('Jaká je nadějě dožití (kolik let) '+gen+' ve věku 45 let '+living+' v okrese '+okres['name']+'?')
+        question['question'] = ('Jaká je nadějě dožití (v letech) '+gen+' ve věku 45 let '+living+' v okrese '+okres['name']+'?')
         question['source'] = 'Naděje dožití v okresech a správních obvodech ORP'
-        question['value'] = ('Naděje na dožití je '+str(data[okres['name']][gen])[:4].replace('.',',')+' let.')
-        question['more_html'] = '<div></div>'
+        question['value'] = ('Naděje na dožití je '+
+            str(data[okres['name']]['ženy'])[:4].replace('.',',')+' let pro ženy a '+
+            str(data[okres['name']]['muže'])[:4].replace('.',',')+' let pro muže.')
+        question['more_html'] = 'https://cs.wikipedia.org/wiki/Střední_délka_života'
     else:
         question = None;
  
