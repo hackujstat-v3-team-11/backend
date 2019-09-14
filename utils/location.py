@@ -4,10 +4,11 @@ import os
 
 __path__ = os.path.dirname(__file__)
 
+with open(os.path.join(__path__, 'kraje.json'),encoding='utf-8') as kraje_file:
+    kraje = json.load(kraje_file)
 
-kraje = json.load(open(os.path.join(__path__, 'kraje.json')))
-okresy = json.load(open(os.path.join(__path__, 'okresy.json')))
-
+with open(os.path.join(__path__, 'okresy.json'),encoding='utf-8') as okresy:
+    okresy = json.load(okresy)
 
 def kraje_name():
     return [row['name'] for row in kraje]
