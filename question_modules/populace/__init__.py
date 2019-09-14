@@ -16,6 +16,9 @@ def load_data():
         datareader = csv.reader(csvfile, delimiter=',', quotechar='"')
         data = {}
         for row in datareader:
+            if row[1] == 'Hlavní město Praha':
+                row[1] = 'Praha'
+
             if row[1] in okresy:
                 data[row[1]] = {
                     'narozeni': int(row[2]),
