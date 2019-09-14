@@ -4,13 +4,15 @@ from . import foreign_tourists
 from . import populace
 from . import sklizen_zemedelskych_plodin
 from . import life_expectancy
+from . import hospodarska_zvirata
 
 def get_questions(okres):
     moduls = [
         foreign_tourists,
         populace,
         sklizen_zemedelskych_plodin,
-        life_expectancy
+        life_expectancy,
+        hospodarska_zvirata
     ]
 
     shuffle(moduls)
