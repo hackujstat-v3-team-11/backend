@@ -8,23 +8,25 @@ import csv
 import os
 from utils import location, answer_proposer
 
-path = os.path.dirname(__file__)
+__path__ = os.path.dirname(__file__)
 
-okresy = location.okresy_name()
+def load_data():
+    okresy = location.okresy_name()
+    with open(os.path.join(__path__, 'DEM07D.csv'), newline='') as csvfile:
+        datareader = csv.reader(csvfile, delimiter=',', quotechar='"')
+        data = {}
+        for row in datareader:
+            if row[1] in okresy:
+                data[row[1]] = {
+                    'narozeni': int(row[2]),
+                    'kluci': int(row[3]),
+                    'holky': int(row[4]),
+                    'prvorodicka_prum_vek': float(row[10])
+                }
+    return data
 
-data = {}
+data = load_data()
 
-with open(os.path.join(path, 'DEM07D.csv'), newline='') as csvfile:
-    datareader = csv.reader(csvfile, delimiter=',', quotechar='"')
-    data = {}
-    for row in datareader:
-        if row[1] in okresy:
-            data[row[1]] = {
-                'narozeni': int(row[2]),
-                'kluci': int(row[3]),
-                'holky': int(row[4]),
-                'prvorodicka_prum_vek': float(row[10])
-            }
 
 def get_question(okres):
     row = data[okres]
