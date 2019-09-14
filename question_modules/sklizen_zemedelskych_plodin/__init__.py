@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Zdroj dat
-#  https://www.czso.cz/csu/czso/sklizen-zemedelskych-plodin-podle-kraju
+# https://www.czso.cz/csu/czso/sklizen-zemedelskych-plodin-podle-kraju
 #
 import sys
 sys.path.append("..")
@@ -18,7 +18,7 @@ def load_data():
     data = {}
     kod = {}
 
-    with open(os.path.join(__path__, '270229-19data043019.csv'), newline='') as csvfile:
+    with open(os.path.join(__path__, '270229-19data043019.csv'), newline='', encoding='utf-8') as csvfile:
         datareader = csv.reader(csvfile, delimiter=',', quotechar='"')
         data = {}
         for row in datareader:
@@ -46,8 +46,8 @@ data = load_data()
 lut = {'Brambory': 'brambor',
 'Cukrovka technická': 'technické cukrovky',
 'Ječmen': 'ječmene',
-'Kukuřice na zeleno a siláž': 'kukuřice na zeleno a siláž',
-'Luskoviny na zrno (hrách setý, lupina, bob, fazol, jiné luskoviny)': 'luskoviny na zrno',
+'Kukuřice na zeleno a siláž': 'kukuřice na zeleno a siláže',
+'Luskoviny na zrno (hrách setý, lupina, bob, fazol, jiné luskoviny)': 'luskovin na zrno',
 'Obiloviny na zrno (pšenice, žito, ječmen, oves, tritikale, kukuřice na zrno, směsky obilovin jarní, směsky obilovin ozimé, čirok, jiné obiloviny)': 'obilovin na zrno',
 'Pícniny na orné půdě': 'pícnin na orné půdě',
 'Pšenice': 'pšenice',
@@ -67,7 +67,7 @@ def get_question(okres):
 
     question = answer_proposer.propose_integer_answer(int(row[rok][plodina]))
 
-    question['question'] = 'Kolik tun {} se vypěstovalo v roce {} {}'.format(lut.get(plodina, plodina), rok, kraj['inflection'])
+    question['question'] = 'Kolik tun {} se vypěstovalo v roce {} {}?'.format(lut.get(plodina, plodina), rok, kraj['inflection'])
     question['source'] = 'ČSÚ - Sklizeň zemědělských plodin podle krajů'
     question['value'] = '{} tun {}'.format(row[rok][plodina], plodina)
     question['more_html'] = '<div></div>'
