@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Zdroj dat
-#  https://www.czso.cz/csu/czso/hospodarska-zvirata-podle-kraju
-#
+# https://www.czso.cz/csu/czso/hospodarska-zvirata-podle-kraju
+
 import sys
 sys.path.append("..")
 import csv
@@ -17,7 +17,7 @@ okresy = location.okresy_name()
 
 data = {}
 max_data = {}
-with open(os.path.join(__path__, '270230-19data053119.csv'), newline='') as csvfile:
+with open(os.path.join(__path__, '270230-19data053119.csv'), newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile, delimiter=',', quotechar='"')
     for row in reader:
         uzemi = row['uzemi_txt']
