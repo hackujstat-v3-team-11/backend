@@ -1,9 +1,12 @@
 # Team Eleven
 ---
-#### Tento projekt je univerzální datová platfotma pro zpracování dat a následné zprostředkování na sociální síť ve formě    ChatBota, který má za úkol přiblížit obyvatelstvu některá vybraná data formou zábavného chat kvízu. 
+#### Statistika hrou je platforma pro prezentaci dat zábavným interaktivním způsobem. Má formu chatbota napojitelného na facebook Messenger i vlastní dialog-flow web aplikaci. Tímto designem získává potenciál oslovit skrze sociální sítě. 
+
+ChatBot po zahájení konverzace zprávou "čau" vyzve hráče k zadání okresu v ČR. Z reálií zvoleného místa pak formuluje otázky kvízu. Hráč se tak seznamuje s nejrůznějšími statistickými daty daného regionu.
+
 ---
 ## Datové sady
-  - Repozitář obahuje několik datových sad, pro demostraci.
+  - Repozitář obahuje několik datových sad, pro demostraci možností systému.
 ### Zdroje čerpání dat
 - [Český Sociálněvědní Datový Archív](http://nesstar.soc.cas.cz/webview/)
 	- České panelové šetření domácností (CHPS)
@@ -22,4 +25,4 @@
 - [Ministerstvo zdravotnictví České republiky](https://www.mzcr.cz)
     - [Národní registr poskytovatelů zdravotních služeb](https://github.com/hackujstat-v3-team-11/backend/blob/master/question_modules/medical_facilities/narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv)
 - [Český úřad zeměměřický a katastrální](https://www.cuzk.cz/Uvod.aspx)
-    - []()
+    - [číselníky katastrů]()
