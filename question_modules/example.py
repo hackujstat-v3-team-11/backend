@@ -9,7 +9,7 @@ def get_question(okres):
             'C: 20 - 30',
             'D: 30 - 40'
         ],
-        'corrects': 1,
+        'correct': 1,
         'source': 'Example database',
         'value': '15ha',
         'more_html': '<div></div>'

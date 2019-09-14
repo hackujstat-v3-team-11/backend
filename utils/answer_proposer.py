@@ -160,7 +160,7 @@ def propose_list_answer(value, items):
             'C: ' + items[2],
             'D: ' + items[3]
         ],
-        'corrects': items.index(value),
+        'correct': items.index(value),
     }
 
 if __name__ == '__main__':
