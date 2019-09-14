@@ -30,7 +30,7 @@ def propose_percentage_answer(answer,N_answers=4,range_symbol='-'):
     else:
         chosen_step = 0.01*steps[random.randint(0,len(steps)-1)];
 
-    chosen_left = 0.01*float(int(100.0*(answer-0.5*chosen_step)))
+    chosen_left = 0.01*float(int(100.0*(answer-0.2*chosen_step)))
     start = chosen_left-((before-1)*chosen_step);
 
     answer_ranges = [];
@@ -41,6 +41,45 @@ def propose_percentage_answer(answer,N_answers=4,range_symbol='-'):
     for i,answer in enumerate(answer_ranges[:-1]):
         answer_list.append( list(string.ascii_uppercase)[i]+': '+
                 str(answer_ranges[i])+range_symbol+str(answer_ranges[i+1])+' %' )
+
+    return({'answers':answer_list, 'correct': response })
+
+def propose_promile_answer(answer,N_answers=4,range_symbol='-'):
+    # input float in range 0.0-1.0
+    response = random.randint(0,N_answers-1)
+    min_step = 0.003;
+    if answer < 0.001:
+        answer = 0.001;
+    elif answer > 0.099:
+        answer = 0.099;
+    else:
+        answer = 0.001*int(1000*answer)
+
+    while response*min_step > answer:
+        response -= 1;
+    while (N_answers-response-1)*min_step > (1.0-answer):
+        response += 1;
+
+    before,range_before = response+1,answer;
+    after,range_after = N_answers-response,1.0-answer;
+    steps = list( range( int(1000.0*min_step),int(1000.0*min(range_after/after,range_before/before)),1) )
+
+    if len(steps) == 0:
+        chosen_step = min_step;
+    else:
+        chosen_step = 0.001*steps[random.randint(0,len(steps)-1)];
+
+    chosen_left = 0.001*float(int(1000.0*(answer-0.2*chosen_step)))
+    start = chosen_left-((before-1)*chosen_step);
+
+    answer_ranges = [];
+    for i in range(N_answers+1):
+        answer_ranges.append(int(1000*(start+i*chosen_step)) )
+
+    answer_list = [];
+    for i,answer in enumerate(answer_ranges[:-1]):
+        answer_list.append( list(string.ascii_uppercase)[i]+': '+
+                str(answer_ranges[i])+range_symbol+str(answer_ranges[i+1])+' ‰' )
 
     return({'answers':answer_list, 'correct': response })
 
