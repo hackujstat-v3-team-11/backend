@@ -20,7 +20,7 @@ def mine_areas(row,rok):
                 wanted_areas += float(row[i]);
         if rok == '2019':
             for i in [5,7,9,11,13,15]:
-                wanted_areas += float(row[i]);            
+                wanted_areas += float(row[i]);
     except:
         pass
     return(wanted_areas)
@@ -73,16 +73,13 @@ for k in data:
     
 
 def get_question(okres):
-    #===========================================================================
-    # try:
-    #===========================================================================
-    question = answer_proposer.propose_promile_answer(data[okres])
-    question['question'] = ('Kolik zemědělsky využívané půdy ubylo za posledních 5 let v okrese '+okres+'?')
-    question['source'] = 'www.cuzk.cz/Katastr-nemovitosti/...';
-    question['value'] = ('Mezi lety 2014 a 2019 se celková výměra zemědělsky užívané plochy změnila o '+str(1000.0*data[okres])[:5]+' ‰.')
-    question['more_html'] = '<div></div>'
-    #===========================================================================
-    # except:
-    #     question = None;
-    #===========================================================================
+    try:
+        question = answer_proposer.propose_promile_answer(data[okres])
+        question['question'] = ('Kolik zemědělsky využívané půdy ubylo za posledních 5 let v okrese '+okres+'?')
+        question['source'] = 'www.cuzk.cz/Katastr-nemovitosti/...';
+        question['value'] = ('Mezi lety 2014 a 2019 se celková výměra zemědělsky užívané plochy snížila o '+str(1000.0*data[okres])[:5]+' ‰.')
+        question['more_html'] = 'http://eagri.cz/public/web/mze/puda/ochrana-pudy-a-krajiny/degradace-pud/zastavovani-uzemi/'
+    except:
+        question = None;
+
     return question
