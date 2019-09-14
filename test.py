@@ -8,6 +8,6 @@ import question_modules
 
 # pprint(hospodarska_zvirata.data)
 
-pprint(populace.get_question('Praha'))
+# pprint(populace.get_question('Praha'))
 
-# pprint(question_modules.get_questions('Liberec'))
+pprint(len(question_modules.get_questions('Liberec', 5)))
