@@ -1,0 +1,1850 @@
+{
+  "2012": {
+    "Australia": [
+      1587146018100.0,
+      "AUS",
+      "Australia",
+      "Austrálie",
+      22728000
+    ],
+    "Austria": [
+      434053844000.0,
+      "AUT",
+      "Austria",
+      "Rakousko",
+      8426311
+    ],
+    "Belgium": [
+      528245757400.0,
+      "BEL",
+      "Belgium",
+      "Belgie",
+      11128250
+    ],
+    "Brazil": [
+      2666417579200.0,
+      "BRA",
+      "Brazil",
+      "Brazílie",
+      199688900
+    ],
+    "Canada": [
+      1820168858900.0,
+      "CAN",
+      "Canada",
+      "Kanada",
+      34880490
+    ],
+    "Chile": [
+      254674286200.0,
+      "CHL",
+      "Chile",
+      "Chile",
+      17444800
+    ],
+    "China (People's Republic of)": [
+      7191736130000.0,
+      "CHN",
+      "China (People's Republic of)",
+      "Čína",
+      1377065000
+    ],
+    "Colombia": [
+      552747844800.0,
+      "COL",
+      "Colombia",
+      "Kolumbie",
+      46581820
+    ],
+    "Czech Republic": [
+      226125117800.0,
+      "CZE",
+      "Czech Republic",
+      "Česká republika",
+      10509290
+    ],
+    "Denmark": [
+      344782304000.0,
+      "DNK",
+      "Denmark",
+      "Dánsko",
+      5591572
+    ],
+    "Estonia": [
+      24168242100.0,
+      "EST",
+      "Estonia",
+      "Estonsko",
+      1322696
+    ],
+    "Finland": [
+      269771123900.0,
+      "FIN",
+      "Finland",
+      "Finsko",
+      5414000
+    ],
+    "France": [
+      2870368233400.0,
+      "FRA",
+      "France",
+      "Francie",
+      63514000
+    ],
+    "Germany": [
+      3776185887200.0,
+      "DEU",
+      "Germany",
+      "Německo",
+      80413000
+    ],
+    "Greece": [
+      266787159600.0,
+      "GRC",
+      "Greece",
+      "Řecko",
+      11090000
+    ],
+    "Hungary": [
+      130921605700.0,
+      "HUN",
+      "Hungary",
+      "Maďarsko",
+      9920000
+    ],
+    "Iceland": [
+      14724078300.0,
+      "ISL",
+      "Iceland",
+      "Island",
+      320716
+    ],
+    "India": [
+      1974057111800.0,
+      "IND",
+      "India",
+      "Indie",
+      1236687000
+    ],
+    "Indonesia": [
+      946815593800.0,
+      "IDN",
+      "Indonesia",
+      "Indonésie",
+      246864200
+    ],
+    "Ireland": [
+      238008372300.0,
+      "IRL",
+      "Ireland",
+      "Irsko",
+      4585400
+    ],
+    "Israel": [
+      267255316300.0,
+      "ISR",
+      "Israel",
+      "Izrael",
+      7910500
+    ],
+    "Italy": [
+      2072823157100.0,
+      "ITA",
+      "Italy",
+      "Itálie",
+      59898030
+    ],
+    "Japan": [
+      6203213121300.0,
+      "JPN",
+      "Japan",
+      "Japonsko",
+      127515000
+    ],
+    "Korea": [
+      1191508678600.0,
+      "KOR",
+      "Korea",
+      "Korea",
+      50004440
+    ],
+    "Latvia": [
+      29616061400.0,
+      "LVA",
+      "Latvia",
+      "Lotyšsko",
+      2033999
+    ],
+    "Luxembourg": [
+      54371319100.0,
+      "LUX",
+      "Luxembourg",
+      "Lucembursko",
+      524900
+    ],
+    "Mexico": [
+      1251799948700.0,
+      "MEX",
+      "Mexico",
+      "Mexiko",
+      117053800
+    ],
+    "Netherlands": [
+      894770694700.0,
+      "NLD",
+      "Netherlands",
+      "Holandsko",
+      16754960
+    ],
+    "New Zealand": [
+      153344460000.0,
+      "NZL",
+      "New Zealand",
+      "Nový Zéland",
+      4408100
+    ],
+    "Norway": [
+      510229136200.0,
+      "NOR",
+      "Norway",
+      "Norsko",
+      5019000
+    ],
+    "Poland": [
+      511463867600.0,
+      "POL",
+      "Poland",
+      "Polsko",
+      38534000
+    ],
+    "Portugal": [
+      235030098300.0,
+      "PRT",
+      "Portugal",
+      "Portugalsko",
+      10514840
+    ],
+    "Russia": [
+      1775141716700.0,
+      "RUS",
+      "Russia",
+      "Rusko",
+      143207000
+    ],
+    "Slovak Republic": [
+      96290310700.0,
+      "SVK",
+      "Slovak Republic",
+      "Slovenská republika",
+      5407579
+    ],
+    "Slovenia": [
+      49921542200.0,
+      "SVN",
+      "Slovenia",
+      "Slovinsko",
+      2056261
+    ],
+    "South Africa": [
+      425633813900.0,
+      "ZAF",
+      "South Africa",
+      "Jižní Afrika",
+      52341000
+    ],
+    "Spain": [
+      1444500361600.0,
+      "ESP",
+      "Spain",
+      "Španělsko",
+      46766400
+    ],
+    "Sweden": [
+      500509511900.0,
+      "SWE",
+      "Sweden",
+      "Švédsko",
+      9519374
+    ],
+    "Switzerland": [
+      706617816300.0,
+      "CHE",
+      "Switzerland",
+      "Švýcarsko",
+      7996861
+    ],
+    "Turkey": [
+      1044464547500.0,
+      "TUR",
+      "Turkey",
+      "krocan",
+      75175830
+    ],
+    "United Kingdom": [
+      2673024226400.0,
+      "GBR",
+      "United Kingdom",
+      "Spojené království",
+      62858800
+    ],
+    "United States": [
+      16197007000000.0,
+      "USA",
+      "United States",
+      "Spojené státy",
+      314112100
+    ]
+  },
+  "2013": {
+    "Australia": [
+      1631568176200.0,
+      "AUS",
+      "Australia",
+      "Austrálie",
+      23126000
+    ],
+    "Austria": [
+      409529654400.0,
+      "AUT",
+      "Austria",
+      "Rakousko",
+      8468570
+    ],
+    "Belgium": [
+      498883280100.0,
+      "BEL",
+      "Belgium",
+      "Belgie",
+      11178440
+    ],
+    "Brazil": [
+      2539304032500.0,
+      "BRA",
+      "Brazil",
+      "Brazílie",
+      201467100
+    ],
+    "Canada": [
+      1866797873800.0,
+      "CAN",
+      "Canada",
+      "Kanada",
+      35154000
+    ],
+    "Chile": [
+      270213505100.0,
+      "CHL",
+      "Chile",
+      "Chile",
+      17631580
+    ],
+    "China (People's Republic of)": [
+      7749700589100.0,
+      "CHN",
+      "China (People's Republic of)",
+      "Čína",
+      1385567000
+    ],
+    "Colombia": [
+      592592796000.0,
+      "COL",
+      "Colombia",
+      "Kolumbie",
+      47121090
+    ],
+    "Czech Republic": [
+      206373407300.0,
+      "CZE",
+      "Czech Republic",
+      "Česká republika",
+      10510720
+    ],
+    "Denmark": [
+      330202358900.0,
+      "DNK",
+      "Denmark",
+      "Dánsko",
+      5614932
+    ],
+    "Estonia": [
+      23490119000.0,
+      "EST",
+      "Estonia",
+      "Estonsko",
+      1317997
+    ],
+    "Finland": [
+      254760537900.0,
+      "FIN",
+      "Finland",
+      "Finsko",
+      5439000
+    ],
+    "France": [
+      2699292825900.0,
+      "FRA",
+      "France",
+      "Francie",
+      63786140
+    ],
+    "Germany": [
+      3561334704400.0,
+      "DEU",
+      "Germany",
+      "Německo",
+      80611000
+    ],
+    "Hungary": [
+      133662635700.00002,
+      "HUN",
+      "Hungary",
+      "Maďarsko",
+      9893000
+    ],
+    "Iceland": [
+      16033517500.0,
+      "ISL",
+      "Iceland",
+      "Island",
+      323764
+    ],
+    "India": [
+      1979714835800.0,
+      "IND",
+      "India",
+      "Indie",
+      1252140000
+    ],
+    "Indonesia": [
+      968878364800.0,
+      "IDN",
+      "Indonesia",
+      "Indonésie",
+      249865600
+    ],
+    "Ireland": [
+      228040653600.0,
+      "IRL",
+      "Ireland",
+      "Irsko",
+      4593100
+    ],
+    "Israel": [
+      268104589300.0,
+      "ISR",
+      "Israel",
+      "Izrael",
+      8058999
+    ],
+    "Italy": [
+      2130491320700.0,
+      "ITA",
+      "Italy",
+      "Itálie",
+      60224730
+    ],
+    "Japan": [
+      5155717056300.0,
+      "JPN",
+      "Japan",
+      "Japonsko",
+      127298000
+    ],
+    "Korea": [
+      1236479229900.0,
+      "KOR",
+      "Korea",
+      "Korea",
+      50220000
+    ],
+    "Luxembourg": [
+      56358248500.0,
+      "LUX",
+      "Luxembourg",
+      "Lucembursko",
+      537000
+    ],
+    "Mexico": [
+      1288158938200.0,
+      "MEX",
+      "Mexico",
+      "Mexiko",
+      118395100
+    ],
+    "Netherlands": [
+      837879174200.0,
+      "NLD",
+      "Netherlands",
+      "Holandsko",
+      16804430
+    ],
+    "New Zealand": [
+      157293671800.0,
+      "NZL",
+      "New Zealand",
+      "Nový Zéland",
+      4442100
+    ],
+    "Norway": [
+      523502127700.0,
+      "NOR",
+      "Norway",
+      "Norsko",
+      5080000
+    ],
+    "Poland": [
+      518582893900.0,
+      "POL",
+      "Poland",
+      "Polsko",
+      38502000
+    ],
+    "Portugal": [
+      213922882400.0,
+      "PRT",
+      "Portugal",
+      "Portugalsko",
+      10457290
+    ],
+    "Russia": [
+      1806834289300.0,
+      "RUS",
+      "Russia",
+      "Rusko",
+      143507000
+    ],
+    "Slovak Republic": [
+      98232393700.0,
+      "SVK",
+      "Slovak Republic",
+      "Slovenská republika",
+      5415949
+    ],
+    "Slovenia": [
+      45828063700.0,
+      "SVN",
+      "Slovenia",
+      "Slovinsko",
+      2059114
+    ],
+    "South Africa": [
+      406178911500.0,
+      "ZAF",
+      "South Africa",
+      "Jižní Afrika",
+      53158000
+    ],
+    "Spain": [
+      1313230407800.0,
+      "ESP",
+      "Spain",
+      "Španělsko",
+      46593230
+    ],
+    "Sweden": [
+      506707568400.0,
+      "SWE",
+      "Sweden",
+      "Švédsko",
+      9609000
+    ],
+    "Switzerland": [
+      680415878100.0,
+      "CHE",
+      "Switzerland",
+      "Švýcarsko",
+      8140000
+    ],
+    "Turkey": [
+      1204188533200.0,
+      "TUR",
+      "Turkey",
+      "krocan",
+      76054620
+    ],
+    "United Kingdom": [
+      2731378270600.0,
+      "GBR",
+      "United Kingdom",
+      "Spojené království",
+      63237940
+    ],
+    "United States": [
+      16495369000000.0,
+      "USA",
+      "United States",
+      "Spojené státy",
+      316498000
+    ]
+  },
+  "2014": {
+    "Australia": [
+      1579267046200.0,
+      "AUS",
+      "Australia",
+      "Austrálie",
+      23491000
+    ],
+    "Belgium": [
+      527461400900.0,
+      "BEL",
+      "Belgium",
+      "Belgie",
+      11227280
+    ],
+    "Canada": [
+      1895482942100.0,
+      "CAN",
+      "Canada",
+      "Kanada",
+      35540000
+    ],
+    "Chile": [
+      291229194700.0,
+      "CHL",
+      "Chile",
+      "Chile",
+      17819050
+    ],
+    "Colombia": [
+      633706021600.0,
+      "COL",
+      "Colombia",
+      "Kolumbie",
+      47661790
+    ],
+    "Czech Republic": [
+      215087964600.0,
+      "CZE",
+      "Czech Republic",
+      "Česká republika",
+      10524780
+    ],
+    "Estonia": [
+      25863255900.0,
+      "EST",
+      "Estonia",
+      "Estonsko",
+      1315819
+    ],
+    "Finland": [
+      268274571400.00003,
+      "FIN",
+      "Finland",
+      "Finsko",
+      5472000
+    ],
+    "France": [
+      2837956774300.0,
+      "FRA",
+      "France",
+      "Francie",
+      64062250
+    ],
+    "Germany": [
+      3834245745100.0,
+      "DEU",
+      "Germany",
+      "Německo",
+      80896000
+    ],
+    "Hungary": [
+      139309419200.0,
+      "HUN",
+      "Hungary",
+      "Maďarsko",
+      9863000
+    ],
+    "Iceland": [
+      17758089300.0,
+      "ISL",
+      "Iceland",
+      "Island",
+      327385
+    ],
+    "Ireland": [
+      258954965100.0,
+      "IRL",
+      "Ireland",
+      "Irsko",
+      4609900
+    ],
+    "Italy": [
+      2151732868200.0,
+      "ITA",
+      "Italy",
+      "Itálie",
+      60447910
+    ],
+    "Korea": [
+      1285467908300.0,
+      "KOR",
+      "Korea",
+      "Korea",
+      50424000
+    ],
+    "Luxembourg": [
+      58779842000.0,
+      "LUX",
+      "Luxembourg",
+      "Lucembursko",
+      549700
+    ],
+    "Mexico": [
+      1382860874700.0,
+      "MEX",
+      "Mexico",
+      "Mexiko",
+      119713000
+    ],
+    "New Zealand": [
+      163137970100.0,
+      "NZL",
+      "New Zealand",
+      "Nový Zéland",
+      4509700
+    ],
+    "Norway": [
+      499338534800.0,
+      "NOR",
+      "Norway",
+      "Norsko",
+      5137000
+    ],
+    "Poland": [
+      535791795200.00006,
+      "POL",
+      "Poland",
+      "Polsko",
+      38484000
+    ],
+    "Slovenia": [
+      49535958400.0,
+      "SVN",
+      "Slovenia",
+      "Slovinsko",
+      2061623
+    ],
+    "South Africa": [
+      373416853600.0,
+      "ZAF",
+      "South Africa",
+      "Jižní Afrika",
+      54002000
+    ],
+    "Spain": [
+      1380647757000.0,
+      "ESP",
+      "Spain",
+      "Španělsko",
+      46464050
+    ],
+    "Turkey": [
+      1360393745300.0,
+      "TUR",
+      "Turkey",
+      "krocan",
+      76902870
+    ],
+    "United Kingdom": [
+      2834728030800.0,
+      "GBR",
+      "United Kingdom",
+      "Spojené království",
+      63650010
+    ],
+    "United States": [
+      16899831000000.0,
+      "USA",
+      "United States",
+      "Spojené státy",
+      318857000
+    ]
+  },
+  "2015": {
+    "Australia": [
+      1505939912100.0,
+      "AUS",
+      "Australia",
+      "Austrálie",
+      22032000
+    ],
+    "Austria": [
+      447048059600.0,
+      "AUT",
+      "Austria",
+      "Rakousko",
+      8361069
+    ],
+    "Belgium": [
+      540042230600.0,
+      "BEL",
+      "Belgium",
+      "Belgie",
+      10920270
+    ],
+    "Brazil": [
+      2368958265300.0,
+      "BRA",
+      "Brazil",
+      "Brazílie",
+      193252600
+    ],
+    "Canada": [
+      1811681967900.0,
+      "CAN",
+      "Canada",
+      "Kanada",
+      34126550
+    ],
+    "Chile": [
+      312696930700.0,
+      "CHL",
+      "Chile",
+      "Chile",
+      17066140
+    ],
+    "China (People's Republic of)": [
+      8888784195300.0,
+      "CHN",
+      "China (People's Republic of)",
+      "Čína",
+      1359822000
+    ],
+    "Colombia": [
+      664203924900.0,
+      "COL",
+      "Colombia",
+      "Kolumbie",
+      45509590
+    ],
+    "Czech Republic": [
+      218851901600.0,
+      "CZE",
+      "Czech Republic",
+      "Česká republika",
+      10517250
+    ],
+    "Denmark": [
+      361262826700.0,
+      "DNK",
+      "Denmark",
+      "Dánsko",
+      5547683
+    ],
+    "Estonia": [
+      27121632100.0,
+      "EST",
+      "Estonia",
+      "Estonsko",
+      1331475
+    ],
+    "Finland": [
+      273974139800.0,
+      "FIN",
+      "Finland",
+      "Finsko",
+      5363000
+    ],
+    "France": [
+      2883907865400.0,
+      "FRA",
+      "France",
+      "Francie",
+      62917790
+    ],
+    "Germany": [
+      3966524095300.0,
+      "DEU",
+      "Germany",
+      "Německo",
+      81715000
+    ],
+    "Greece": [
+      235991783300.0,
+      "GRC",
+      "Greece",
+      "Řecko",
+      11153000
+    ],
+    "Hungary": [
+      144235993000.0,
+      "HUN",
+      "Hungary",
+      "Maďarsko",
+      10000000
+    ],
+    "Iceland": [
+      17344165900.0,
+      "ISL",
+      "Iceland",
+      "Island",
+      318006
+    ],
+    "India": [
+      2209529242500.0,
+      "IND",
+      "India",
+      "Indie",
+      1205625000
+    ],
+    "Indonesia": [
+      934253754100.0,
+      "IDN",
+      "Indonesia",
+      "Indonésie",
+      240676500
+    ],
+    "Ireland": [
+      323509958700.0,
+      "IRL",
+      "Ireland",
+      "Irsko",
+      4554800
+    ],
+    "Israel": [
+      317966873200.0,
+      "ISR",
+      "Israel",
+      "Izrael",
+      7623600
+    ],
+    "Italy": [
+      1832273032600.0,
+      "ITA",
+      "Italy",
+      "Itálie",
+      59419650
+    ],
+    "Japan": [
+      4389475622600.0005,
+      "JPN",
+      "Japan",
+      "Japonsko",
+      128056999
+    ],
+    "Korea": [
+      1352976976500.0,
+      "KOR",
+      "Korea",
+      "Korea",
+      49410370
+    ],
+    "Latvia": [
+      32266197600.0,
+      "LVA",
+      "Latvia",
+      "Lotyšsko",
+      2098000
+    ],
+    "Luxembourg": [
+      61081638800.0,
+      "LUX",
+      "Luxembourg",
+      "Lucembursko",
+      502100
+    ],
+    "Mexico": [
+      1468142373500.0,
+      "MEX",
+      "Mexico",
+      "Mexiko",
+      114255600
+    ],
+    "Netherlands": [
+      908437146900.0,
+      "NLD",
+      "Netherlands",
+      "Holandsko",
+      16615390
+    ],
+    "New Zealand": [
+      168985984300.0,
+      "NZL",
+      "New Zealand",
+      "Nový Zéland",
+      4350700
+    ],
+    "Norway": [
+      386663139400.0,
+      "NOR",
+      "Norway",
+      "Norsko",
+      4889000
+    ],
+    "Poland": [
+      556360561100.0,
+      "POL",
+      "Poland",
+      "Polsko",
+      38517000
+    ],
+    "Portugal": [
+      233813828300.0,
+      "PRT",
+      "Portugal",
+      "Portugalsko",
+      10573100
+    ],
+    "Russia": [
+      1768700519300.0,
+      "RUS",
+      "Russia",
+      "Rusko",
+      142849000
+    ],
+    "Slovak Republic": [
+      104812623100.0,
+      "SVK",
+      "Slovak Republic",
+      "Slovenská republika",
+      5391428
+    ],
+    "Slovenia": [
+      51039455400.0,
+      "SVN",
+      "Slovenia",
+      "Slovinsko",
+      2049261
+    ],
+    "South Africa": [
+      354823312700.0,
+      "ZAF",
+      "South Africa",
+      "Jižní Afrika",
+      50792000
+    ],
+    "Spain": [
+      1427094806100.0,
+      "ESP",
+      "Spain",
+      "Španělsko",
+      46562480
+    ],
+    "Sweden": [
+      543060934900.0,
+      "SWE",
+      "Sweden",
+      "Švédsko",
+      9378126
+    ],
+    "Switzerland": [
+      718638337000.0,
+      "CHE",
+      "Switzerland",
+      "Švýcarsko",
+      7827970
+    ],
+    "Turkey": [
+      1556143079100.0,
+      "TUR",
+      "Turkey",
+      "krocan",
+      73142150
+    ],
+    "United Kingdom": [
+      3106018936500.0,
+      "GBR",
+      "United Kingdom",
+      "Spojené království",
+      61914640
+    ],
+    "United States": [
+      17386700000000.0,
+      "USA",
+      "United States",
+      "Spojené státy",
+      309347100
+    ]
+  },
+  "2016": {
+    "Australia": [
+      1278109126100.0,
+      "AUS",
+      "Australia",
+      "Austrálie",
+      22032000
+    ],
+    "Austria": [
+      389592889800.0,
+      "AUT",
+      "Austria",
+      "Rakousko",
+      8361069
+    ],
+    "Belgium": [
+      462563118800.0,
+      "BEL",
+      "Belgium",
+      "Belgie",
+      10920270
+    ],
+    "Brazil": [
+      1742640705300.0,
+      "BRA",
+      "Brazil",
+      "Brazílie",
+      193252600
+    ],
+    "Canada": [
+      1569709468900.0,
+      "CAN",
+      "Canada",
+      "Kanada",
+      34126550
+    ],
+    "Chile": [
+      332130884400.0,
+      "CHL",
+      "Chile",
+      "Chile",
+      17066140
+    ],
+    "China (People's Republic of)": [
+      9486097328200.0,
+      "CHN",
+      "China (People's Republic of)",
+      "Čína",
+      1359822000
+    ],
+    "Colombia": [
+      685393595800.0,
+      "COL",
+      "Colombia",
+      "Kolumbie",
+      45509590
+    ],
+    "Czech Republic": [
+      191408287400.0,
+      "CZE",
+      "Czech Republic",
+      "Česká republika",
+      10517250
+    ],
+    "Denmark": [
+      309936229900.0,
+      "DNK",
+      "Denmark",
+      "Dánsko",
+      5547683
+    ],
+    "Estonia": [
+      23703615600.0,
+      "EST",
+      "Estonia",
+      "Estonsko",
+      1331475
+    ],
+    "Finland": [
+      239305238700.0,
+      "FIN",
+      "Finland",
+      "Finsko",
+      5363000
+    ],
+    "France": [
+      2464917595600.0,
+      "FRA",
+      "France",
+      "Francie",
+      62917790
+    ],
+    "Germany": [
+      3457208037200.0,
+      "DEU",
+      "Germany",
+      "Německo",
+      81715000
+    ],
+    "Greece": [
+      196215958100.0,
+      "GRC",
+      "Greece",
+      "Řecko",
+      11153000
+    ],
+    "Hungary": [
+      147525724300.0,
+      "HUN",
+      "Hungary",
+      "Maďarsko",
+      10000000
+    ],
+    "Iceland": [
+      20716024800.0,
+      "ISL",
+      "Iceland",
+      "Island",
+      318006
+    ],
+    "India": [
+      2298142348800.0,
+      "IND",
+      "India",
+      "Indie",
+      1205625000
+    ],
+    "Indonesia": [
+      904181621800.0,
+      "IDN",
+      "Indonesia",
+      "Indonésie",
+      240676500
+    ],
+    "Ireland": [
+      302220638300.0,
+      "IRL",
+      "Ireland",
+      "Irsko",
+      4554800
+    ],
+    "Israel": [
+      312513325300.0,
+      "ISR",
+      "Israel",
+      "Izrael",
+      7623600
+    ],
+    "Italy": [
+      1869201702200.0,
+      "ITA",
+      "Italy",
+      "Itálie",
+      59419650
+    ],
+    "Japan": [
+      4926667087400.0,
+      "JPN",
+      "Japan",
+      "Japonsko",
+      128056999
+    ],
+    "Korea": [
+      1420155179700.0,
+      "KOR",
+      "Korea",
+      "Korea",
+      49410370
+    ],
+    "Latvia": [
+      27529686100.0,
+      "LVA",
+      "Latvia",
+      "Lotyšsko",
+      2098000
+    ],
+    "Luxembourg": [
+      62554580200.0,
+      "LUX",
+      "Luxembourg",
+      "Lucembursko",
+      502100
+    ],
+    "Mexico": [
+      1592012921000.0,
+      "MEX",
+      "Mexico",
+      "Mexiko",
+      114255600
+    ],
+    "Netherlands": [
+      782037366700.0,
+      "NLD",
+      "Netherlands",
+      "Holandsko",
+      16615390
+    ],
+    "New Zealand": [
+      175146873600.0,
+      "NZL",
+      "New Zealand",
+      "Nový Zéland",
+      4350700
+    ],
+    "Norway": [
+      371344761900.0,
+      "NOR",
+      "Norway",
+      "Norsko",
+      4889000
+    ],
+    "Poland": [
+      573399661700.0,
+      "POL",
+      "Poland",
+      "Polsko",
+      38517000
+    ],
+    "Portugal": [
+      203260565400.0,
+      "PRT",
+      "Portugal",
+      "Portugalsko",
+      10573100
+    ],
+    "Russia": [
+      1764722517500.0,
+      "RUS",
+      "Russia",
+      "Rusko",
+      142849000
+    ],
+    "Slovak Republic": [
+      107577797600.0,
+      "SVK",
+      "Slovak Republic",
+      "Slovenská republika",
+      5391428
+    ],
+    "Slovenia": [
+      44424452600.0,
+      "SVN",
+      "Slovenia",
+      "Slovinsko",
+      2049261
+    ],
+    "South Africa": [
+      318682449100.0,
+      "ZAF",
+      "South Africa",
+      "Jižní Afrika",
+      50792000
+    ],
+    "Spain": [
+      1237126204500.0,
+      "ESP",
+      "Spain",
+      "Španělsko",
+      46562480
+    ],
+    "Sweden": [
+      557636507600.0,
+      "SWE",
+      "Sweden",
+      "Švédsko",
+      9378126
+    ],
+    "Switzerland": [
+      691543518400.0,
+      "CHE",
+      "Switzerland",
+      "Švýcarsko",
+      7827970
+    ],
+    "Turkey": [
+      1735720882000.0,
+      "TUR",
+      "Turkey",
+      "krocan",
+      73142150
+    ],
+    "United Kingdom": [
+      2948245911700.0,
+      "GBR",
+      "United Kingdom",
+      "Spojené království",
+      61914640
+    ],
+    "United States": [
+      17659187000000.0,
+      "USA",
+      "United States",
+      "Spojené státy",
+      309347100
+    ]
+  },
+  "2017": {
+    "Australia": [
+      1348882060700.0,
+      "AUS",
+      "Australia",
+      "Austrálie",
+      22032000
+    ],
+    "Austria": [
+      404104635800.0,
+      "AUT",
+      "Austria",
+      "Rakousko",
+      8361069
+    ],
+    "Belgium": [
+      477823246700.0,
+      "BEL",
+      "Belgium",
+      "Belgie",
+      10920270
+    ],
+    "Canada": [
+      1572435117400.0,
+      "CAN",
+      "Canada",
+      "Kanada",
+      34126550
+    ],
+    "Chile": [
+      353182918200.0,
+      "CHL",
+      "Chile",
+      "Chile",
+      17066140
+    ],
+    "China (People's Republic of)": [
+      12122920027500.0,
+      "CHN",
+      "China (People's Republic of)",
+      "Čína",
+      1359822000
+    ],
+    "Colombia": [
+      705329215000.0,
+      "COL",
+      "Colombia",
+      "Kolumbie",
+      45509590
+    ],
+    "Czech Republic": [
+      203581778500.0,
+      "CZE",
+      "Czech Republic",
+      "Česká republika",
+      10517250
+    ],
+    "Denmark": [
+      319046441900.0,
+      "DNK",
+      "Denmark",
+      "Dánsko",
+      5547683
+    ],
+    "Estonia": [
+      25149139000.0,
+      "EST",
+      "Estonia",
+      "Estonsko",
+      1331475
+    ],
+    "Finland": [
+      246283353800.0,
+      "FIN",
+      "Finland",
+      "Finsko",
+      5363000
+    ],
+    "France": [
+      2527141671600.0,
+      "FRA",
+      "France",
+      "Francie",
+      62917790
+    ],
+    "Germany": [
+      3570557345300.0,
+      "DEU",
+      "Germany",
+      "Německo",
+      81715000
+    ],
+    "Greece": [
+      198160735200.0,
+      "GRC",
+      "Greece",
+      "Řecko",
+      11153000
+    ],
+    "Hungary": [
+      153628957800.0,
+      "HUN",
+      "Hungary",
+      "Maďarsko",
+      10000000
+    ],
+    "Iceland": [
+      24489493500.0,
+      "ISL",
+      "Iceland",
+      "Island",
+      318006
+    ],
+    "India": [
+      2421722771900.0,
+      "IND",
+      "India",
+      "Indie",
+      1205625000
+    ],
+    "Indonesia": [
+      979099376900.0,
+      "IDN",
+      "Indonesia",
+      "Indonésie",
+      240676500
+    ],
+    "Ireland": [
+      325001810300.0,
+      "IRL",
+      "Ireland",
+      "Irsko",
+      4554800
+    ],
+    "Israel": [
+      330379254000.0,
+      "ISR",
+      "Israel",
+      "Izrael",
+      7623600
+    ],
+    "Italy": [
+      1946570340300.0,
+      "ITA",
+      "Italy",
+      "Itálie",
+      59419650
+    ],
+    "Japan": [
+      4859950558500.0,
+      "JPN",
+      "Japan",
+      "Japonsko",
+      128056999
+    ],
+    "Korea": [
+      1496805547600.0,
+      "KOR",
+      "Korea",
+      "Korea",
+      49410370
+    ],
+    "Latvia": [
+      28979569700.0,
+      "LVA",
+      "Latvia",
+      "Lotyšsko",
+      2098000
+    ],
+    "Luxembourg": [
+      63521461700.0,
+      "LUX",
+      "Luxembourg",
+      "Lucembursko",
+      502100
+    ],
+    "Mexico": [
+      1734823317400.0,
+      "MEX",
+      "Mexico",
+      "Mexiko",
+      114255600
+    ],
+    "Netherlands": [
+      806335923800.0,
+      "NLD",
+      "Netherlands",
+      "Holandsko",
+      16615390
+    ],
+    "New Zealand": [
+      180626274900.0,
+      "NZL",
+      "New Zealand",
+      "Nový Zéland",
+      4350700
+    ],
+    "Norway": [
+      399488897800.0,
+      "NOR",
+      "Norway",
+      "Norsko",
+      4889000
+    ],
+    "Poland": [
+      601710609200.0,
+      "POL",
+      "Poland",
+      "Polsko",
+      38517000
+    ],
+    "Portugal": [
+      212041124200.0,
+      "PRT",
+      "Portugal",
+      "Portugalsko",
+      10573100
+    ],
+    "Slovak Republic": [
+      112378572700.0,
+      "SVK",
+      "Slovak Republic",
+      "Slovenská republika",
+      5391428
+    ],
+    "Slovenia": [
+      46819941300.0,
+      "SVN",
+      "Slovenia",
+      "Slovinsko",
+      2049261
+    ],
+    "South Africa": [
+      300532781000.0,
+      "ZAF",
+      "South Africa",
+      "Jižní Afrika",
+      50792000
+    ],
+    "Spain": [
+      1274366845900.0,
+      "ESP",
+      "Spain",
+      "Španělsko",
+      46562480
+    ],
+    "Sweden": [
+      569373173200.0,
+      "SWE",
+      "Sweden",
+      "Švédsko",
+      9378126
+    ],
+    "Switzerland": [
+      683388919400.0,
+      "CHE",
+      "Switzerland",
+      "Švýcarsko",
+      7827970
+    ],
+    "Turkey": [
+      2067098901200.0,
+      "TUR",
+      "Turkey",
+      "krocan",
+      73142150
+    ],
+    "United Kingdom": [
+      2707714936700.0,
+      "GBR",
+      "United Kingdom",
+      "Spojené království",
+      61914640
+    ],
+    "United States": [
+      18050693000000.0,
+      "USA",
+      "United States",
+      "Spojené státy",
+      309347100
+    ]
+  },
+  "2018": {
+    "Austria": [
+      428211776000.0,
+      "AUT",
+      "Austria",
+      "Rakousko",
+      8361069
+    ],
+    "Belgium": [
+      502017577000.0,
+      "BEL",
+      "Belgium",
+      "Belgie",
+      10920270
+    ],
+    "Canada": [
+      1678365629300.0,
+      "CAN",
+      "Canada",
+      "Kanada",
+      34126550
+    ],
+    "Chile": [
+      374814352300.0,
+      "CHL",
+      "Chile",
+      "Chile",
+      17066140
+    ],
+    "China (People's Republic of)": [
+      13297987069400.0,
+      "CHN",
+      "China (People's Republic of)",
+      "Čína",
+      1359822000
+    ],
+    "Czech Republic": [
+      222299802300.0,
+      "CZE",
+      "Czech Republic",
+      "Česká republika",
+      10517250
+    ],
+    "Denmark": [
+      334779426000.0,
+      "DNK",
+      "Denmark",
+      "Dánsko",
+      5547683
+    ],
+    "Estonia": [
+      27640392500.0,
+      "EST",
+      "Estonia",
+      "Estonsko",
+      1331475
+    ],
+    "Finland": [
+      256513610300.0,
+      "FIN",
+      "Finland",
+      "Finsko",
+      5363000
+    ],
+    "France": [
+      2630895742500.0,
+      "FRA",
+      "France",
+      "Francie",
+      62917790
+    ],
+    "Germany": [
+      3745843701600.0,
+      "DEU",
+      "Germany",
+      "Německo",
+      81715000
+    ],
+    "Greece": [
+      207013979100.0,
+      "GRC",
+      "Greece",
+      "Řecko",
+      11153000
+    ],
+    "Hungary": [
+      161218871600.0,
+      "HUN",
+      "Hungary",
+      "Maďarsko",
+      10000000
+    ],
+    "Iceland": [
+      25622526000.0,
+      "ISL",
+      "Iceland",
+      "Island",
+      318006
+    ],
+    "Indonesia": [
+      1067933749300.0,
+      "IDN",
+      "Indonesia",
+      "Indonésie",
+      240676500
+    ],
+    "Ireland": [
+      362189517000.0,
+      "IRL",
+      "Ireland",
+      "Irsko",
+      4554800
+    ],
+    "Italy": [
+      2073901988900.0,
+      "ITA",
+      "Italy",
+      "Itálie",
+      59419650
+    ],
+    "Latvia": [
+      31916315600.0,
+      "LVA",
+      "Latvia",
+      "Lotyšsko",
+      2098000
+    ],
+    "Luxembourg": [
+      65174718200.0,
+      "LUX",
+      "Luxembourg",
+      "Lucembursko",
+      502100
+    ],
+    "Netherlands": [
+      853415822500.0,
+      "NLD",
+      "Netherlands",
+      "Holandsko",
+      16615390
+    ],
+    "Norway": [
+      434750937600.0,
+      "NOR",
+      "Norway",
+      "Norsko",
+      4889000
+    ],
+    "Poland": [
+      632695585800.0,
+      "POL",
+      "Poland",
+      "Polsko",
+      38517000
+    ],
+    "Portugal": [
+      224011510800.0,
+      "PRT",
+      "Portugal",
+      "Portugalsko",
+      10573100
+    ],
+    "Slovak Republic": [
+      119465454000.0,
+      "SVK",
+      "Slovak Republic",
+      "Slovenská republika",
+      5391428
+    ],
+    "Slovenia": [
+      50630243400.0,
+      "SVN",
+      "Slovenia",
+      "Slovinsko",
+      2049261
+    ],
+    "South Africa": [
+      351753516500.0,
+      "ZAF",
+      "South Africa",
+      "Jižní Afrika",
+      50792000
+    ],
+    "Spain": [
+      1348246424800.0,
+      "ESP",
+      "Spain",
+      "Španělsko",
+      46562480
+    ],
+    "Sweden": [
+      582804342200.0,
+      "SWE",
+      "Sweden",
+      "Švédsko",
+      9378126
+    ],
+    "Switzerland": [
+      698653080700.0,
+      "CHE",
+      "Switzerland",
+      "Švýcarsko",
+      7827970
+    ],
+    "United Kingdom": [
+      2674733360700.0,
+      "GBR",
+      "United Kingdom",
+      "Spojené království",
+      61914640
+    ]
+  }
+}
