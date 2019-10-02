@@ -8,6 +8,8 @@ from . import hospodarska_zvirata
 from . import people
 from . import medical_facilities
 from . import ubytek_pudy
+from . import jokes_and_riddles
+from . import oecd
 
 def get_questions(okres, count=None):
     moduls = [
@@ -19,7 +21,9 @@ def get_questions(okres, count=None):
         people,
         people,
         medical_facilities,
-        ubytek_pudy
+        ubytek_pudy,
+        jokes_and_riddles,
+        oecd
     ]
 
     shuffle(moduls)
