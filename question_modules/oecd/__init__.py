@@ -14,7 +14,7 @@ with open(os.path.join(path, 'GDP.json'), encoding='utf-8') as jsnf:
     data = json.load(jsnf)
     roky = list(data.keys())
 
-def get_question(okres,reduction_factor=1.15):
+def get_question(okres,reduction_factor=0.15):
     if random.random() <= reduction_factor:
         try:
             Q = random.randint(0,2)
